@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from .views import register, create_post, edit_post, list_posts, delete_post
 from django.contrib.auth import views as auth_views
 

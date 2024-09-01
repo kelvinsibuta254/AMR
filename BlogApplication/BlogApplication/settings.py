@@ -38,11 +38,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'BlogApp',
+    'genomics',
+    'bioinformatics',
+    'rest_framework',
 ]
 
 LOGIN_REDIRECT_URL = "list_posts"
 LOGOUT_REDIRECT_URL = "/"
+
 AUTH_USER_MODEL = "BlogApp.CustomUser"
+#AUTH_USER_MODEL = "bioinformatics.Gene"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
