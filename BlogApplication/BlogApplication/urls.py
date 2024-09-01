@@ -22,5 +22,6 @@ urlpatterns = [
     path("", include("BlogApp.urls")),
     path("api/", include("genomics.urls")),
     path("api/", include("bioinformatics.urls")),
+    path("genes/", include("bioinformatics.urls")),
     
 ]
