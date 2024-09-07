@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'BlogApp',
     'genomics',
     'bioinformatics',
+    'GeneBook',
     'rest_framework',
 ]
 
